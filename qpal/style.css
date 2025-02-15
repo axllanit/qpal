@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navdiv{
+    justify-content: space-between; display: flex; align-items: center;
+}
+
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    font-family: serif;
+}
+.navbar{
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+li{
+    list-style: none;
+}
+li a{
+    color: white;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+    margin-top: 8px;
+}
+.card{
+    width: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card img{
+ height: 250px; width: 200px;
+}
+
